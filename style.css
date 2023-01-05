@@ -1,0 +1,40 @@
+h3{
+color: red;
+position: relative;
+
+}
+
+.list{
+    margin-right: 100px;
+    margin-left: 100px;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+    
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border-style: groove;
+    padding: auto;
+    
+
+}
+.row::after{
+
+    border-spacing: 1.5em;
+    content: "";
+    display: table;
+    clear: right;
+    position: relative;
+}
+.column p{
+    text-align: left;
+}
+
+.nav-link{
+    color: white;
+}
